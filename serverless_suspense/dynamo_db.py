@@ -1,6 +1,6 @@
 import boto3
 
-import ServerlessSuspense
+from .base import ServerlessSuspense
 
 
 class DynamoModel(ServerlessSuspense):

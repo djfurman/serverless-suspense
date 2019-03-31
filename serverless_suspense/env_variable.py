@@ -1,6 +1,6 @@
 import os
 
-import ServerlessSuspense
+from .base import ServerlessSuspense
 
 
 class EnvironmentModel(ServerlessSuspense):
